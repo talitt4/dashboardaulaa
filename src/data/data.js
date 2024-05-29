@@ -2,22 +2,22 @@ import { iconsImgs } from "../utils/images";
 import { personsImgs } from "../utils/images";
 
 export const navigationLinks = [
-    { id: 1, title: 'Home', image: iconsImgs.home },
+    { id: 1, title: 'Página Inicial', image: iconsImgs.home },
     { id: 2, title: 'Carteira', image: iconsImgs.budget },
     { id: 3, title: 'Transações', image: iconsImgs.plane },
-    { id: 4, title: 'Subscriptions', image: iconsImgs.wallet },
-    { id: 5, title: 'Loans', image: iconsImgs.bills },
-    { id: 6, title: 'Reports', image: iconsImgs.report },
-    { id: 7, title: 'Savings', image: iconsImgs.wallet },
-    { id: 8, title: 'Financial Advice', image: iconsImgs.wealth },
+    { id: 4, title: 'Inscrições', image: iconsImgs.wallet },
+    { id: 5, title: 'Empréstimos', image: iconsImgs.bills },
+    { id: 6, title: 'Relatório', image: iconsImgs.report },
+    { id: 7, title: 'Poupança', image: iconsImgs.wallet },
+    { id: 8, title: 'Meta do mês', image: iconsImgs.wealth },
     { id: 9, title: 'Conta', image: iconsImgs.user },
-    { id: 10, title: 'Settings', image: iconsImgs.gears }
+    { id: 10, title: 'Configuração', image: iconsImgs.gears }
 ];
 
 export const transactions = [
     {
         id: 11, 
-        name: "Talita Fagundes",
+        name: "Giovanna Felicio",
         image: personsImgs.person_four,
         date: "23/12/04",
         amount: 22000
@@ -31,7 +31,7 @@ export const transactions = [
     },
     {
         id: 13, 
-        name: "Giovanna Felicio",
+        name: "Talita Fagundes",
         image: personsImgs.person_two,
         date: "23/08/25",
         amount: 30000
