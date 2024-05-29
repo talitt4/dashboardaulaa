@@ -3,35 +3,35 @@ import { personsImgs } from "../utils/images";
 
 export const navigationLinks = [
     { id: 1, title: 'Home', image: iconsImgs.home },
-    { id: 2, title: 'Budget', image: iconsImgs.budget },
-    { id: 3, title: 'Transactions', image: iconsImgs.plane },
+    { id: 2, title: 'Carteira', image: iconsImgs.budget },
+    { id: 3, title: 'Transações', image: iconsImgs.plane },
     { id: 4, title: 'Subscriptions', image: iconsImgs.wallet },
     { id: 5, title: 'Loans', image: iconsImgs.bills },
     { id: 6, title: 'Reports', image: iconsImgs.report },
     { id: 7, title: 'Savings', image: iconsImgs.wallet },
     { id: 8, title: 'Financial Advice', image: iconsImgs.wealth },
-    { id: 9, title: 'Account', image: iconsImgs.user },
+    { id: 9, title: 'Conta', image: iconsImgs.user },
     { id: 10, title: 'Settings', image: iconsImgs.gears }
 ];
 
 export const transactions = [
     {
         id: 11, 
-        name: "Sarah Parker",
+        name: "Talita Fagundes",
         image: personsImgs.person_four,
         date: "23/12/04",
         amount: 22000
     },
     {
         id: 12, 
-        name: "Krisitine Carter",
+        name: "Lucas Silva",
         image: personsImgs.person_three,
         date: "23/07/21",
         amount: 20000
     },
     {
         id: 13, 
-        name: "Irene Doe",
+        name: "Giovanna Felicio",
         image: personsImgs.person_two,
         date: "23/08/25",
         amount: 30000
@@ -74,31 +74,31 @@ export const reportData = [
 export const budget = [
     {
         id: 19, 
-        title: "Subscriptions",
+        title: "Inscrições",
         type: "Automated",
         amount: 22000
     },
     {
         id: 20, 
-        title: "Loan Payment",
+        title: "Pagamento de empréstimo",
         type: "Automated",
         amount: 16000
     },
     {
         id: 21, 
-        title: "Foodstuff",
+        title: "Alimentos",
         type: "Automated",
         amount: 20000
     },
     {
         id: 22, 
-        title: "Subscriptions",
+        title: "Roupas",
         type: null,
         amount: 10000
     },
     {
         id: 23, 
-        title: "Subscriptions",
+        title: "Amazon",
         type: null,
         amount: 40000
     }
@@ -130,7 +130,7 @@ export const savings = [
         id: 27,
         image: personsImgs.person_one,
         saving_amount: 250000,
-        title: "Pay kid bro’s fees",
+        title: "Pagar as taxas da namorada",
         date_taken: "23/12/22",
         amount_left: 40000
     }

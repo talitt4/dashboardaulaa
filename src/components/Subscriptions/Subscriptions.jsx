@@ -6,7 +6,7 @@ const Subscriptions = () => {
   return (
     <div className="subgrid-two-item grid-common grid-c5">
         <div className="grid-c-title">
-            <h3 className="grid-c-title-text">Subscriptions</h3>
+            <h3 className="grid-c-title-text">Inscrições</h3>
             <button className="grid-c-title-icon">
                 <img src={ iconsImgs.plus } />
             </button>
@@ -20,7 +20,7 @@ const Subscriptions = () => {
                                 <div className="icon">
                                     <img src={ iconsImgs.alert } />
                                 </div>
-                                <p className="text text-silver-v1">{ subscription.title } <span>due { subscription.due_date }</span></p>
+                                <p className="text text-silver-v1">{ subscription.title } <span>data de cobrança { subscription.due_date }</span></p>
                             </div>
                             <div className="grid-item-r">
                                 <span className="text-silver-v1">$ { subscription.amount }</span>
