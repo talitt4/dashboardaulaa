@@ -12,7 +12,7 @@ const ContentTop = () => {
         <button type="button" className="sidebar-toggler" onClick={toggleSidebar}>
           <img src={iconsImgs.menu} alt="Menu icon" />
         </button>
-        <h3 className="content-top-title">Home</h3>
+        <h3 className="content-top-title">Página Inicial</h3>
       </div>
       <div className="content-top-btns">
         <button type="button" className="search-btn content-top-btn">

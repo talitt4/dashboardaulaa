@@ -29,12 +29,4 @@
 .content-top-btn img {
   width: 24px;
 }
-
-.content-top-btn img:hover {
-  filter: brightness(0) invert(1);
-}
-
-.content-top-left {
-  display: flex;
-  align-items: center;
 }

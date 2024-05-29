@@ -130,7 +130,7 @@ export const savings = [
         id: 27,
         image: personsImgs.person_one,
         saving_amount: 250000,
-        title: "Pagar as taxas da namorada",
+        title: "Pagar as taxas do namorado",
         date_taken: "23/12/22",
         amount_left: 40000
     }
